@@ -4,11 +4,11 @@ http://cinerama.gccitcom.iq/api/page/{pagenumber}/{type}/{genre}/{language}/{sor
 
 {pagenumber} = Page number used for pagination
 
-{type} = Show type 0 = Movies , 1 = Series
+{type} = Show type 0 = Movies , 1 = Series , 2 = any
 
-{genre} = genre ID you can get it from this api call http://cinerama.gccitcom.iq/api/genry
+{genre} = genre ID you can get it from this api call http://cinerama.gccitcom.iq/api/genry, write 0 if dont want to filter by genre
 
-{language} = numbers from 1~9 represent show language no current api to bring all language :(
+{language} = numbers from 1~9 represent show language no current api to bring all language :( , write 0 if dont want to filter by language
 
 {sort} = "desc" and "asc" used to sort shows
 
