@@ -4,7 +4,7 @@ http://cinerama.gccitcom.iq/api/page/{pagenumber}/{type}/{genre}/{language}/{sor
 
 {pagenumber} = Page number used for pagination
 
-{type} = Show type 0 = Movies , 1 = Series , 2 = any
+{type} = Show type / 0 = Movies , 1 = Series , 2 = any
 
 {genre} = genre ID you can get it from this api call http://cinerama.gccitcom.iq/api/genry, write 0 if dont want to filter by genre
 
